@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form fillng</title>
+</head>
+<body style="background-color: rgb(245, 234, 221);">
+    <fieldset>
+            <ul><b><a href="/index.html">Go Back</a></b></ul>
+    <center>
+            <form>
+                <h1>Fill the Form</h1>
+                     <br>
+            <label>
+                Name: <input type="text" placeholder="Full Name" name="name">
+            </label>
+                    <br>
+            <label>
+                email: <input type="email" placeholder="enter email" name="email">
+            </label>
+                    <br>
+            <label>
+                Password: <input type="password" placeholder="Password" name="password">
+            </label>
+                    <br>
+                <h2>Gender</h2>
+
+            <label>
+                <input type="radio" name="gender" value="male"> Male
+            </label>
+            <label>
+                <input type="radio" name="gender" value="female"> Female
+            </label>
+                    <br>
+                <h3>Enter Date of Birth</h3>
+                <input type="date" name="date">
+                    <br>
+                <h3>Select any Language</h3>
+            <label>
+                <input type="checkbox" name="language" value="english">English
+            </label>
+                    <br>
+    <label>
+        <input type="checkbox" name="language" value="Hindi">Hindi
+    </label>
+    <br>
+    <label>
+        <input type="checkbox" name="language" value="Spanish">Spanish
+    </label>
+    <br>
+    <label>
+        <input type="checkbox" name="language" value="French">French
+    </label>
+    <br>
+    <label>
+        <h3>PriceRange</h3>
+            <input type="range" min="0" max="10000" name="PriceRange">
+    </label>    
+    <br>
+    <h3>Select the Subject</h3>
+    <select name="Subject">
+    <option value="#">Default</option>
+    <option value="Frontend">Front End</option>
+    <option value="Fullstack">Full Stack</option>
+    <option value="backend">Back End</option>
+    <option value="None">None</option>
+    </select>
+    <br>
+    <br>
+    <textarea placeholder="Enter Feedback" name="Feedback"></textarea>
+    <br>
+    <button>submit</button>
+
+        </form>
+        <br>
+    </center>
+</fieldset>
+</body>
+</html>
